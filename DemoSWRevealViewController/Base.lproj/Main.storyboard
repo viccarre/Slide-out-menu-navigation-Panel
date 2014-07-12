@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="goz-YP-Eos">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="goz-YP-Eos">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,7 +18,7 @@
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="KKt-47-w0a">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="c6r-kB-m17"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="c6r-kB-m17"/>
                     </navigationItem>
                     <connections>
                         <outlet property="revealButtonItem" destination="c6r-kB-m17" id="LZz-pM-ana"/>
@@ -68,7 +68,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Vista 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xXS-vk-xDl">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Screen 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xXS-vk-xDl">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -88,7 +88,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Vista 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dBM-Ry-NWB">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Screen 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dBM-Ry-NWB">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -138,12 +138,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCF-oL-fql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="325" y="612"/>
+            <point key="canvasLocation" x="951" y="-194"/>
         </scene>
-        <!--Vista Dos View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="HJk-sm-EBb">
             <objects>
-                <viewController id="nU5-gs-fio" customClass="VistaDosViewController" sceneMemberID="viewController">
+                <viewController id="nU5-gs-fio" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j71-ke-td1"/>
                         <viewControllerLayoutGuide type="bottom" id="8a2-xa-3Vt"/>
@@ -154,7 +154,7 @@
                         <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="mqu-lH-eUP">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="q6h-F4-HWX"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="q6h-F4-HWX"/>
                     </navigationItem>
                     <connections>
                         <outlet property="revealButtonItem" destination="q6h-F4-HWX" id="Ng8-Mn-8ru"/>
@@ -189,7 +189,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Hdn-5s-SUN"/>
-        <segue reference="DS8-df-rcy"/>
+        <segue reference="5gc-wq-f8G"/>
+        <segue reference="C8Q-zj-6nG"/>
     </inferredMetricsTieBreakers>
 </document>

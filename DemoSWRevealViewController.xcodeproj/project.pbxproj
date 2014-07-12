@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1294AE1971CB000080D849 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1294AD1971CB000080D849 /* SecondViewController.m */; };
 		5B15AB211830325C00DF4F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B15AB201830325C00DF4F88 /* Foundation.framework */; };
 		5B15AB231830325C00DF4F88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B15AB221830325C00DF4F88 /* CoreGraphics.framework */; };
 		5B15AB251830325C00DF4F88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B15AB241830325C00DF4F88 /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		5B15AB4C1830325D00DF4F88 /* DemoSWRevealViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15AB4B1830325D00DF4F88 /* DemoSWRevealViewControllerTests.m */; };
 		5B15AB571830361B00DF4F88 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15AB561830361B00DF4F88 /* SWRevealViewController.m */; };
 		5BBA83F41830D67B005D1707 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA83F31830D67B005D1707 /* MenuViewController.m */; };
-		5BBA83F71830E554005D1707 /* VistaDosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA83F61830E554005D1707 /* VistaDosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1294AC1971CB000080D849 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B1294AD1971CB000080D849 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5B15AB1D1830325C00DF4F88 /* DemoSWRevealViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSWRevealViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B15AB201830325C00DF4F88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B15AB221830325C00DF4F88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,8 +62,6 @@
 		5B15AB561830361B00DF4F88 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		5BBA83F21830D67A005D1707 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
 		5BBA83F31830D67B005D1707 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
-		5BBA83F51830E554005D1707 /* VistaDosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VistaDosViewController.h; sourceTree = "<group>"; };
-		5BBA83F61830E554005D1707 /* VistaDosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VistaDosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,12 +124,12 @@
 				5B15AB2F1830325C00DF4F88 /* AppDelegate.h */,
 				5B15AB301830325D00DF4F88 /* AppDelegate.m */,
 				5B15AB321830325D00DF4F88 /* Main.storyboard */,
-				5B15AB351830325D00DF4F88 /* ViewController.h */,
-				5B15AB361830325D00DF4F88 /* ViewController.m */,
 				5BBA83F21830D67A005D1707 /* MenuViewController.h */,
 				5BBA83F31830D67B005D1707 /* MenuViewController.m */,
-				5BBA83F51830E554005D1707 /* VistaDosViewController.h */,
-				5BBA83F61830E554005D1707 /* VistaDosViewController.m */,
+				5B15AB351830325D00DF4F88 /* ViewController.h */,
+				5B15AB361830325D00DF4F88 /* ViewController.m */,
+				5B1294AC1971CB000080D849 /* SecondViewController.h */,
+				5B1294AD1971CB000080D849 /* SecondViewController.m */,
 				5B15AB551830361B00DF4F88 /* SWRevealViewController.h */,
 				5B15AB561830361B00DF4F88 /* SWRevealViewController.m */,
 				5B15AB381830325D00DF4F88 /* Images.xcassets */,
@@ -264,12 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1294AE1971CB000080D849 /* SecondViewController.m in Sources */,
 				5B15AB371830325D00DF4F88 /* ViewController.m in Sources */,
 				5B15AB311830325D00DF4F88 /* AppDelegate.m in Sources */,
 				5B15AB2D1830325C00DF4F88 /* main.m in Sources */,
 				5B15AB571830361B00DF4F88 /* SWRevealViewController.m in Sources */,
 				5BBA83F41830D67B005D1707 /* MenuViewController.m in Sources */,
-				5BBA83F71830E554005D1707 /* VistaDosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
